@@ -1,5 +1,5 @@
-FROM openjdk:14-jdk-alpine3.10
-ENV PLANTUML_VERSION=1.2020.20
+FROM openjdk:15-jdk-alpine3.12
+ENV PLANTUML_VERSION=1.2021.2
 ENV PLANTUML_DL_URL="https://downloads.sourceforge.net/project/plantuml/${PLANTUML_VERSION}/plantuml.${PLANTUML_VERSION}.jar"
 ENV LANG en_US.UTF-8
 
